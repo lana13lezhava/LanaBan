@@ -1,7 +1,6 @@
-
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 
-const Footer = () => {
+const Boottombar = () => {
   const footerLinks = {
     company: [
       { name: 'About', href: '#' },
@@ -104,5 +103,5 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Boottombar
 

@@ -8,9 +8,9 @@ import Pricing from './components/Pricing'
 import PurposeSection from './components/PurposeSection'
 import Testimonial from './components/Testimonial'
 import News from './components/News'
-import Footer from './components/Footer'
 import ServicesSection from './components/ServicesSection'
 import { DiHeroku } from "react-icons/di"
+import Boottombar from "./components/BottomBar"
 
 
 const App = () => {
@@ -31,7 +31,7 @@ const App = () => {
         <ServicesSection />
         <Testimonial />
         <News />
-        <Footer />
+        <Boottombar/>
       </div>
     </main>
   )
